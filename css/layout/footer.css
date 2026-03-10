@@ -1,0 +1,136 @@
+.footer {
+  background: #0b2549;
+  color: white;
+  padding: 60px 15%;
+}
+
+.footer-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* brand  */
+.footer-brand .header__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.header__logo {
+  font-size: 36px;
+  color: #3b82f6;
+}
+
+.header__title {
+  font-size: 18px;
+  display: block;
+}
+
+.header__slogan {
+  font-size: 12px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  max-width: 320px;
+}
+
+/* icones redes sociais */
+.icon_redes_sociais {
+  display: flex;
+  gap: 12px;
+}
+
+.icon_redes_sociais i {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon_redes_sociais i:hover {
+  background: #3b82f6;
+  color: #fff;
+}
+
+/* titulos */
+.footer-services h4,
+.footer-outlook h4,
+.footer-subscribe h4 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* listas */
+.footer-services ul,
+.footer-outlook ul,
+.footer-subscribe ul {
+  padding: 0;
+  list-style: style none;
+}
+
+.footer-services li,
+.footer-outlook li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-services li:hover,
+.footer-outlook li:hover {
+  color: #3b82f6;
+}
+
+/* ===== SUBSCRIBE ===== */
+.footer-subscribe li {
+  font-size: 14px;
+  /* line-height: 1.5; */
+  margin-bottom: 16px;
+}
+
+.footer-subscribe {
+  position: relative;
+}
+
+.footer-subscribe input {
+  width: 100%;
+  padding: 12px 48px 12px 14px;
+  border-radius: 6px;
+  border: none;
+  /* outline: none; */
+  font-size: 14px;
+}
+
+.footer-subscribe button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 42px;
+  width: 42px;
+  border: none;
+  background: #3b82f6;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-subscribe button:hover {
+  background: #2563eb;
+}

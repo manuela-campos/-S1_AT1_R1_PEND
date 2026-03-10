@@ -1,0 +1,39 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Garantir altura minima */
+html, body{
+    height: 100%;
+    font-size: 16px;
+}
+
+/* Altura da linha */
+/* Se o texto tiver 16px, altura da linha tem 24px */
+body{
+    line-height: 1.5;
+}
+
+/* Imagens que estouram */
+img, picture, video{
+    display: block;
+    max-width: 100%;
+}
+
+/* Herdam as fontas */
+input, button, textarea{
+    font: inherit;
+}
+
+/* Textos não quebram o layout */
+p, h1, h2, h3, h4, h5, h6{
+    overflow-wrap: break-word;
+}
+
